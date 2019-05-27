@@ -1,0 +1,158 @@
+body,
+html {
+    height: 100%;
+    font-size: 14px;
+}
+
+.header {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(43, 46, 74, 0.95) 0%, rgba(43, 46, 74, 0.95) 100%), url(../images/header.jpg);
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        height: 100%;
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .75);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+}
+
+.header-content h1 {
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 1.1em;
+}
+
+.header-content p.lead {
+    font-size: 22px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature-item i {
+    font-size: 55px;
+    color: #e84545;
+    padding-bottom: 25px;
+}
+
+.feature-item h4 {
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.feature-item p {
+    text-align: center;
+    min-width: 180px;
+}
+
+.works {
+    flex-wrap: wrap;
+
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(232, 69, 69, 0.9);
+    opacity: 0;
+    transition: 200ms;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+}
+
+.hovereffect .p1 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+    opacity: 0;
+    font-weight: 600;
+}
+
+.hovereffect .p2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.hovereffect:hover .p1 {
+    opacity: 1;
+}
+
+.content h3 {
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.content .pre {
+    color: #e84545;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.social .soc-icon {
+    color: #c6cacc;
+    font-size: 19px;
+    padding: 10px;
+    border: solid #c6cacc 1px;
+}
+
+.social {
+    margin-top: 50px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.work:not(:last-child) {
+    padding: 0 10px 0 0;
+}
+
+.work:last-child {
+    padding: 0 !important;
+}
+
+.worker {
+    padding: 0 !important;
+}
+
